@@ -221,7 +221,7 @@ function keyPressed(){
 }
 
 async function getBackground(){
-    var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Calcutta");
+    var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Tokyo");
     var responseJson = await response.json();
     var datetime = responseJson.datetime;
   
